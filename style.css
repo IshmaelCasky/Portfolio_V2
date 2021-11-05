@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@500&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+
+/* Navigation Area */
+
+header {
+    min-width: 100vh;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("assets/439712.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-bar {
+    display: flex;
+    padding: 1rem;
+    justify-content: space-around;
+}
+
+.nav-bar ul {
+    display: flex;
+}
+
+.nav-bar li {
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.nav-bar a {
+    color: beige;
+}
+
+
+/*Profile Picture And Name Section */
+
+.photo-container {
+    display: flex;
+    padding: 10rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+#profile-picture {
+    width: 25rem;
+    height: 25rem;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("assets/166338106_1552232161653179_4508751630140606576_n.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+#my-name h1 {
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    color: beige;
+}
+
+#my-name p {
+    margin-top: 0.5rem;
+    color: beige;
+}
+
+
+/* About Me : About my life section */
+
+.about-me {
+    display: flex;
+    min-width: 100vh;
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, #000000, rgba(0, 0, 0, 0.65));
+    position: relative;
+    flex-direction: column;
+}
+
+.about-myself {
+    display: flex;
+    height: 15rem;
+    align-items: center;
+}
+
+.about-myself h1 {
+    text-decoration: underline;
+    padding: 5rem;
+    font-size: 3rem;
+    color: beige;
+}
+
+.about-myself p {
+    color: beige;
+}
+
+.my-reason {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15rem;
+}
+
+.my-reason h1 {
+    text-decoration: underline;
+    font-size: 3rem;
+    color: beige;
+    padding: 5rem;
+}
+
+.my-reason p {
+    color: beige;
+}
+
+.my-techs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 15rem;
+}
+
+.my-techs h1 {
+    text-decoration: underline;
+    font-size: 3rem;
+    color: beige;
+}
+
+.logos-svg {
+    display: flex;
+    margin-top: 2rem;
+}
+
+
+/* My Techs Area */
+
+.logos-svg #html {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 3rem;
+    height: 3rem;
+    background: url('https://api.iconify.design/logos/html-5.svg') no-repeat center center / contain;
+}
+
+.logos-svg #css {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 3rem;
+    height: 3rem;
+    background: url('https://api.iconify.design/logos/css-3.svg') no-repeat center center / contain;
+}
+
+.logos-svg #php {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 3rem;
+    height: 3rem;
+    background: url('https://api.iconify.design/logos/php.svg') no-repeat center center / contain;
+}
+
+.logos-svg #python {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 3rem;
+    height: 3rem;
+    background: url('https://api.iconify.design/logos/python.svg') no-repeat center center / contain;
+}
+
+.logos-svg #c {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 3rem;
+    height: 3rem;
+    background: url('https://api.iconify.design/logos/c.svg') no-repeat center center / contain;
+}
+
+
+/* Footer Area : Name and Contact */
+
+.footer-container {
+    position: relative;
+    display: flex;
+    min-width: 100vh;
+    min-height: 3vh;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.65);
+    justify-content: center;
+}
+
+.footer-container p {
+    color: beige;
+}
+
+.contact-area {
+    display: flex;
+    margin-left: 5rem;
+}
+
+
+/* Contact Area*/
+
+#fb {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    width: 2rem;
+    height: 2rem;
+    background: url('https://api.iconify.design/simple-icons/facebook.svg?color=gray') no-repeat center center / contain;
+}
+
+#fb:hover {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    width: 2rem;
+    height: 2rem;
+    background: url('https://api.iconify.design/simple-icons/facebook.svg?color=%238ac6ff') no-repeat center center / contain;
+}
+
+#github {
+    margin-left: 0.5em;
+    margin-right: 0.5rem;
+    width: 2rem;
+    height: 2rem;
+    background: url('https://api.iconify.design/simple-icons/github.svg?color=gray') no-repeat center center / contain;
+}
+
+#github:hover {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    width: 2rem;
+    height: 2rem;
+    background: url('https://api.iconify.design/simple-icons/github.svg?color=%23bdbdbd') no-repeat center center / contain;
+}
+
+#linkedin {
+    margin-left: 0.5em;
+    margin-right: 0.5rem;
+    width: 2rem;
+    height: 2rem;
+    background: url('https://api.iconify.design/simple-icons/linkedin.svg?color=gray') no-repeat center center / contain;
+}
+
+#linkedin:hover {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    width: 2rem;
+    height: 2rem;
+    background: url('https://api.iconify.design/simple-icons/linkedin.svg?color=%238ac6ff') no-repeat center center / contain;
+}
